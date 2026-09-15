@@ -1,0 +1,7 @@
+# Only needed if you want the LLM "chief of staff" orchestrator feature
+# (chores.py and watch_inbox.py work fine without these — they degrade
+# gracefully to plain chore commands if these aren't installed or no
+# anthropic_api_key is set in config.json).
+langgraph>=0.2
+langchain-core>=0.3
+langchain-anthropic>=0.3
